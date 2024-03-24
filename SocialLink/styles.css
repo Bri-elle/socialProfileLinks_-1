@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    
+  }
+  
+  body{
+    width:100%;
+    background-color: #040404;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    margin-top:50px;
+    
+    
+  }
+  
+  div{
+    width: 415px;
+    min-height: 700px;
+    display:flex;
+    flex-direction:column;
+    padding: 30px;
+    justify-content:center;
+    align-content: center;
+    background-color: #38302e;
+    border-radius: 10px;
+    color: #EEEEEE;
+    text-align:center;
+
+    /* This creates a glowing effect */
+    box-shadow: 0 0 10px #dae23f, 0 0 20px #dae23f, 0 0 30px #dae23f, 0 0 40px #dae23f;
+      border: 2px solid #dae23f;
+  }
+    img{
+      display: block; 
+    margin: auto; 
+      width:100px;
+      height:100px;
+      border-radius:50px;
+    }
+    
+    h5{
+      color:#dae23f;
+    }
+
+    #summary{
+        color:#ced4da;
+    }
+    
+    li{
+      width: 95%;
+      list-style-type:none;
+      padding:15px;
+      margin-top:10px;
+      border-radius: 10px;
+      text-align:center;
+      background-color:#6f6866;
+       
+    }
+
+    ul{
+    width:100%;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    color:#fbfff8;
+}
+    
